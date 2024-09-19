@@ -1,0 +1,12 @@
+ol {
+	list-style-type: upper-roman;
+	background: red;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+ul {
+	list-style-type: square;
+	background: red;
+	color:white ;
+	text-shadow: 2px 2px black;
+}
