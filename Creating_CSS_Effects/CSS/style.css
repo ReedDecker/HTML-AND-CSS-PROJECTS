@@ -15,7 +15,7 @@ ul {
     margin: -10px -10px 0px -10px;
     /*Margin value order top,
     right, bottom, left*/
-    overflow: hideen;
+    overflow: hidden;
     /*Hides excess margin space expanding past
     the browser window edge and prevents a left to right
      scroll bar*/
