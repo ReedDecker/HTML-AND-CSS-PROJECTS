@@ -1,0 +1,67 @@
+/*Import link for the Cinzel serif font from google.fonts.com*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
+/*HEADERS*/
+
+h1 {
+    font-family: "Cinzel", serif;
+    font-size: 45px;
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: "Cinzel", serif;
+    font-size: 25px;
+    color: rgb(241, 88, 0);
+    font-weight: 600;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Cinzel", serif;
+    font-size: 25px;
+    color: rgb(241, 88, 0);
+    font-weight: 600;
+    font-style: normal;
+}
+
+p {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-style: normal;
+}
+
+#contact {
+    display: inline-block;
+    margin-bottom: -50px;
+}
+
+form {
+    display: table;
+    /*This will display the form in a table
+    format as rows and columns*/
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    /*The browser will automatically 
+    calculate margins to center the form on the screen*/
+}
+
+form input {
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    color: rgb(165, 0, 0);
+    width: auto;
+    height: auto;
+    border: solid, 2px, rgb(255, 0, 0);
+    border-radius: 8px;
+    padding: 3px;
+    margin: 10px 15px 10px 0px;
+    transition: 0.3s ease-out;
+}
